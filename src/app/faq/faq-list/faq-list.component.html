@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-xs-12">
+    <app-faq-item
+      *ngFor="let faqEl of faqs; let i = index"
+      [faq]="faqEl"
+      [index]="i"></app-faq-item>
+  </div>
+</div>
