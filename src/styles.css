@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+nav {
+	font-size: 1.4em;
+}
+html, body {
+  height: 100%;
+  
+}
+
+.container {
+  min-height: 100%;
+  overflow:auto;
+  padding-bottom:60px;
+}
+
+.home_display {
+  width: 100%;
+  margin: 0 0 lem 0;
+  padding: 0;
+  float: left;
+  /*background-color: lightgrey;*/
+}

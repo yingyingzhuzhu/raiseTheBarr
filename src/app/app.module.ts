@@ -15,6 +15,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { FaqListComponent } from './faq/faq-list/faq-list.component';
 import { FaqItemComponent } from './faq/faq-list/faq-item/faq-item.component';
 import { FaqDetailComponent } from './faq/faq-detail/faq-detail.component';
+import { FaqStartComponent } from './faq/faq-start/faq-start.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { FaqDetailComponent } from './faq/faq-detail/faq-detail.component';
     AboutUsComponent,
     FaqListComponent,
     FaqItemComponent,
-    FaqDetailComponent
+    FaqDetailComponent,
+    FaqStartComponent
   ],
   imports: [
     BrowserModule,
