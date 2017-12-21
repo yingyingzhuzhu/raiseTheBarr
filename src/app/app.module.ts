@@ -19,6 +19,7 @@ import { FaqStartComponent } from './faq/faq-start/faq-start.component';
 import { PartnerComponent } from './home/partner/partner.component';
 import { CompanyComponent } from './home/company/company.component';
 import { ScreenComponent } from './home/screen/screen.component';
+import { ServiceComponent } from './home/service/service.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { ScreenComponent } from './home/screen/screen.component';
     FaqStartComponent,
     PartnerComponent,
     CompanyComponent,
-    ScreenComponent
+    ScreenComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,

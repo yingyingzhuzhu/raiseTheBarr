@@ -1,0 +1,31 @@
+.service {
+	height: 800px;
+	width: 100%;
+}
+
+h1 {
+	margin-top: 150px;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+h4 {
+	height: 50px;
+	font-size: 25px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:#4B997C;
+}
+
+
+.col-md-4 {
+	text-align: center;
+}
+
+
+.image-row {
+	margin-top: 100px;
+}
+
+.text-row {
+	margin-top: 225px;
+}
