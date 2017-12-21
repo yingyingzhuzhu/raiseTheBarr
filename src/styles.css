@@ -4,7 +4,7 @@ nav {
 }
 html, body {
   height: 100%;
-  
+  width: 100%;
 }
 
 .container {
@@ -20,3 +20,13 @@ html, body {
   float: left;
   /*background-color: lightgrey;*/
 }
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}
+

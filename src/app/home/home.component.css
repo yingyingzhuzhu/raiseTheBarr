@@ -1,0 +1,27 @@
+.jumbotron {
+	background-color: white;
+}
+
+.jumbotron h2 {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 600;
+}
+
+.jumbotron p {
+	text-align: center;
+}
+
+
+.image {
+	padding: 10px 100px 0px 100px;
+}
+
+.wide { 
+    text-align:left;
+    font-weight:bold;
+    background:#ebebeb;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 465px;
+}
