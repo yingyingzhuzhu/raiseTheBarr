@@ -1,0 +1,34 @@
+.screen {
+	height: 1200px;
+}
+
+h1 {
+	font-size: 28px;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+p {
+	text-align: center;
+	padding:10px;
+	font-size: 20px;
+}
+
+.images {
+    display: block;
+    margin: 0 auto;
+	height: 700px;
+	width: auto;
+}
+
+.btn-sl {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+}
+
+.button-row {
+	margin-top: 100px;
+}

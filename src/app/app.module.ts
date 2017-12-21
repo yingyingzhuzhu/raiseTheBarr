@@ -18,6 +18,7 @@ import { FaqDetailComponent } from './faq/faq-detail/faq-detail.component';
 import { FaqStartComponent } from './faq/faq-start/faq-start.component';
 import { PartnerComponent } from './home/partner/partner.component';
 import { CompanyComponent } from './home/company/company.component';
+import { ScreenComponent } from './home/screen/screen.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { CompanyComponent } from './home/company/company.component';
     FaqDetailComponent,
     FaqStartComponent,
     PartnerComponent,
-    CompanyComponent
+    CompanyComponent,
+    ScreenComponent
   ],
   imports: [
     BrowserModule,
