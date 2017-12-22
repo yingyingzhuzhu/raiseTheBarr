@@ -1,5 +1,9 @@
-.screen {
+.screen.up{
 	height: 1200px;
+}
+
+.screen.down{
+	height: 300px;
 }
 
 h1 {
@@ -31,4 +35,8 @@ p {
 
 .button-row {
 	margin-top: 100px;
+}
+
+[hidden] {
+  display: none !important;
 }

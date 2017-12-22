@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-screen',
   templateUrl: './screen.component.html',
   styleUrls: ['./screen.component.css']
 })
-export class ScreenComponent implements OnInit {
+export class ScreenComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  showDemo = true;
+  showBeta = true;
 }

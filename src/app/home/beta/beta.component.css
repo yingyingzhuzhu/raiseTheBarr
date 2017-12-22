@@ -6,6 +6,11 @@ input.ng-invalid.ng-touched {
 	border: 1px solid red;
 }
 
+
 .form-group input {
 	width: 30%;
+}
+
+.thanks {
+	margin-top: 30px;
 }

@@ -1,6 +1,6 @@
 
 <div class="screen">
-	<div class="container">
+	<div class="container up">
 
 		<h1>Enterprise Training Utilizing an Artifical Intelligence Powered Chatbot</h1>
 
@@ -14,16 +14,27 @@
 
 		<div class="button-row">
 			<div class="col-md-4">
-				<button type="button" class="btn btn-secondary btn-sl">Request a Demo</button>
+				<button class="btn btn-secondary btn-sl" (click)="showDemo = !showDemo">Request a Demo</button>
 			</div>
 			<div class="col-md-4">
 				<button type="button" class="btn btn-secondary btn-sl">Test our Chatbot</button>
 			</div>
 			<div class="col-md-4">
-				<button type="button" class="btn btn-secondary btn-sl">Join our Beta</button>
+				<button type="button" class="btn btn-secondary btn-sl" (click)="showBeta = !showBeta">Join our Beta</button>
 			</div>
 		</div>
-
 	</div>
-
+	<div class="container down">
+		<div class="form-row">
+			<div class="col-md-4">
+				<app-request [hidden]="showDemo">click on</app-request>
+			</div>
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+				<app-beta [hidden]="showBeta">click on</app-beta>
+			</div>
+		</div>
+		
+	</div>
 </div>

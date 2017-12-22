@@ -22,6 +22,7 @@ import { CompanyComponent } from './home/company/company.component';
 import { ScreenComponent } from './home/screen/screen.component';
 import { MapComponent } from './contact-us/map/map.component';
 import { ServiceComponent } from './home/service/service.component';
+import { BetaComponent } from './home/beta/beta.component';
 
 
 
@@ -43,7 +44,8 @@ import { ServiceComponent } from './home/service/service.component';
     CompanyComponent,
     ScreenComponent,
     MapComponent,
-    ServiceComponent
+    ServiceComponent,
+    BetaComponent
   ],
   imports: [
     BrowserModule,

@@ -1,16 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component ViewChild} from '@angular/core';
+//import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-request',
   templateUrl: './request.component.html',
   styleUrls: ['./request.component.css']
 })
-export class RequestComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class RequestComponent {
+	@ViewChild('f') demoForm: NgForm;
+	
+	onSubmit() {
+		console.log(this.demoForm);
+	}
 }
 
