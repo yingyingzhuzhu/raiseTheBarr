@@ -33,6 +33,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 This is a website for company Raise the Barr.
 
+### Home
+
+Use Bootstrap and CSS to color webpage and display different aspects of the company. https://www.dropbox.com/s/uxucfgfr8gtj6pk/bootstrap_style.png?dl=0
+
 ### Contact Us
 
 Use Google Map api to show the address.
